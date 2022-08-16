@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%; 
+    height: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.cabecalho-image img{
+    width: 25vw;
+    margin: 0;
+}
+
+.cabecalho-botoes{
+    margin: 70px;
+}
+
+.botao-entrar{
+    width: 8vw;
+    height: 3.5vh;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #E50914;
+    color: white;
+    font-size: 16px;
+    border: transparent;
+    box-shadow: 2px 1px 1px 0.5px black;
+}
+
+.botao-linguage{
+    margin: 20px;
+    width: 10vw;
+    height: 3.5vh;
+    background-color: transparent;
+    cursor: pointer;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #aaa;
+    color: #fff;
+}
+
+.botao-linguage img{
+    width: 10%;
+    color: white;
+    margin-right: 5px;
+}
+
+.conteudo{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 150px;
+}
+
+.conteudo h1{
+    font-size: 50px;
+    color: white;
+    font-weight:600;
+}
+
+.conteudo h3{
+    font-size: 23px;
+    color: white;
+    font-weight: 500;
+}
+
+.conteudo p{
+    color: white;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.botao-link{
+    margin: 5px;
+    padding: 10px;
+    width: 12vw;
+    height: 5vh;
+    font-size: 20px;
+    cursor: pointer;
+    border:  transparent;
+    color: white;
+    background-color: #E50914;
+    border-radius: 5px;
+    box-shadow: 2px 1px 1px 0.5px black;
+}
+
