@@ -19,11 +19,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.container img{
+.cabecalho img{
     width: 30vw;
 }
 
-.container h1{
+.bloco-perfis h1{
     margin-bottom: 20px;
 }
 
@@ -38,12 +38,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
     border-radius: 10px;
-    width: 15vw;
+    width: 12vw;
     height: 20vh;
     margin: 10px;
     margin-bottom: 100px;
     color: black;
+    cursor: pointer;
 }
 
+.item img:hover{
+    transform: scale(1.08,1.08);
+    box-shadow: 2px 2px 10px 4px #E50914;
+    transition: 0.8s;
+}
+
+.item img{
+    width: 100%;
+    border-radius: 10px;
+}
