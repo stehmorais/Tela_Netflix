@@ -1,0 +1,12 @@
+criar um script unico para os perfis e os filmes, com evento de clique nos perfis que dependendo
+do perfil clicado, aparece a foto la em cima do cabecalho dos filmes
+
+- deixar quadradinhos dos filmes com tamanho fixo (px) para n reduzirem, pois esta em %
+- reduzir animação dos perfis com transition: 500ms
+
+- quebrar com flex warp para o lado
+- tentar usar display inline
+
+pra ajudar em alguns conceitos: https://www.linkedin.com/feed/update/urn:li:activity:6959854876952539136/
+- https://www.linkedin.com/feed/update/urn:li:activity:6955892990322061312/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6955892990322061312%29
+- https://www.linkedin.com/feed/update/urn:li:activity:6878155265057808384/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6878155265057808384%29

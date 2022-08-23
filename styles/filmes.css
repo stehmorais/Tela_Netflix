@@ -15,12 +15,19 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* cabecalho */
+
 .cabecalho{
-    height: 100px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: gray;
+    background-color: #0C0C0C;
+    color: white;
+}
+
+.cabecalho img{
+    width: 180px;
 }
 
 .cabecalho-left{
@@ -41,6 +48,7 @@
     margin: 0 20px;
 }
 
+
 .conteudo{
     display: flex;
     align-items: center;
@@ -48,16 +56,61 @@
     flex: 1 0 auto;
 }
 
+/* conteudo principal */
+
 .filme-destaque{
     display: flex;
-    color: white;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     height: 100%;
-    /* background: no-repeat url(../images/lupin\ capa.jpg); */
     background-color: black;
+    color: white;
+    background-image: url(../images/st\ capa3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.bloco-1{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 20px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.bloco-1 img{
+    width: 40px;
+}
+
+.bloco-2{
+    font-size: 50px;
+    margin: 20px 0px 0px 20px;  
+}
+
+.bloco-2 img{
+    width: 500px;
+}
+
+.botoes{
+    margin: 20px;
+}
+
+.btn1 {
+    width: 10em;
+    height: 3em;
+}
+
+.btn2{
+    width: 15em;
+    height: 3em; 
+    background-color: gray;
+    color: white;
+}
+
+
+/* rolagem de filmes */
 
 .filmes-rolagem{
     width: 100%;
